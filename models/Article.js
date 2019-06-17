@@ -1,5 +1,6 @@
 module.exports = (Schema, model) => model('Article', new Schema({
-    Headline: String,
-    Summary: String,
-    URL: String
+    title: String,
+    muscle: String,
+    equipment: String,
+    link: String
   }))
